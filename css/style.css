@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "open sans";
+}
+html,
+body {
+  height: 100%;
+}
+
+/*classes auxiliares*/
+.center {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.clear {
+  clear: both;
+}
+/**/
+
+.layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+section.main {
+  position: relative;
+  background-image: url("../img/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 15px 0;
+  min-height: 800px;
+}
+
+section.main header {
+  z-index: 2;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.icons-social a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 15px;
+  float: right;
+}
+
+.logo {
+  margin-top: 20px;
+  float: left;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+nav.desktop {
+  margin-top: 20px;
+  float: right;
+}
+
+nav.desktop ul {
+  list-style-type: none;
+}
+
+nav.desktop li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+nav.desktop a {
+  color: white;
+  text-decoration: none;
+}
+
+.conteudo-header {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: 110px 0;
+}
+
+.conteudo-header h2 {
+  color: white;
+  font-weight: lighter;
+  font-size: 44px;
+}
+
+.conteudo-header h2 > span {
+  color: #2692ff;
+}
+
+.conteudo-header p {
+  color: white;
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.conteudo-header a {
+  display: block;
+  width: 177px;
+  height: 44px;
+  background: #2692ff;
+  color: white;
+  text-align: center;
+  line-height: 44px;
+  text-decoration: none;
+  margin-top: 18px;
+  border-radius: 20px;
+}
